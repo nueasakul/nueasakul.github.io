@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    font-family: sans-serif;
+}
+
+.card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+.profile-img {
+    object-fit: cover;
+}
+
+h2 {
+    margin-top: 15px;
+    color: #333;
+}
+
+h3 {
+    margin-top: 10px;
+    color: #4e4e4e;
+}
+
+button {
+    order: 2px solid #000000;
+    border-radius: 15px;
+    background-color: rgb(224, 224, 224);
+}
